@@ -18,7 +18,6 @@ $video = getVideo();
 <html>
 <head>
 	<meta charset="utf-8" />
-	<link rel="stylesheet" href="css/fontawesome-all.min.css">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/videoPageStyle.css">
 </head>
@@ -54,7 +53,7 @@ $video = getVideo();
 				<?php $i = 0; ?>
 				<?php foreach ($video->subtitle as $subtitle) : ?>
 					<tr id="<?=$i++?>">
-					<td><i class="far fa-play-circle"></i></td>
+					<td></td>
 					<td data-start="<?=$subtitle->start?>"
 						data-end="<?=$subtitle->end?>">
 						<?=$subtitle->text?>
@@ -66,5 +65,7 @@ $video = getVideo();
 		</div>
 		</div>
 	</div>
+	<span id="ytVideoId" data-ytvideoid="<?=$video->ytVideoId?>"></span>
+	<script src="javascript/control_subtitle.js"></script>
 </body>
 </html>
