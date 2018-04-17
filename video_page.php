@@ -18,7 +18,7 @@ $video = getVideo();
 <html>
 <head>
 	<meta charset="utf-8" />
-	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/videoPageStyle.css">
 </head>
 <body>
@@ -52,13 +52,11 @@ $video = getVideo();
 				<table id="subtitleList">
 				<?php $i = 0; ?>
 				<?php foreach ($video->subtitle as $subtitle) : ?>
-					<tr id="<?=$i++?>">
-					<td></td>
-					<td data-start="<?=$subtitle->start?>"
+					<tr id="<?=$i++?>"
+						data-start="<?=$subtitle->start?>"
 						data-end="<?=$subtitle->end?>">
-						<?=$subtitle->text?>
-					</td>
-					</tr>
+						<td></td>
+						<td><?=$subtitle->text?></td></tr>
 				<?php endforeach; ?>
 				</table>
 			</div>
