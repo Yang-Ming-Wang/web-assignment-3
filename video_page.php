@@ -38,7 +38,7 @@ $video = getVideo();
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-12">
-			<h1 id="video_title"><?php echo $video->title; ?></h1>
+			<h1 id="video_title"><?=$video->title?></h1>
 			</div>
 		</div>
 		<div class="row">
@@ -51,14 +51,16 @@ $video = getVideo();
 		<div class="col-lg-4">
 			<div id="caption_block">
 				<table id="subtitleList">
-<?php
-foreach ($video->subtitle as $subtitle) {
-	echo '<tr>';
-	echo "<td><i class=\"far fa-play-circle\"></i></td>";
-	echo '<td>' . $subtitle->text . '</td>';
-	echo '</tr>';
-}
-?>
+				<?php $i = 0; ?>
+				<?php foreach ($video->subtitle as $subtitle) : ?>
+					<tr id="<?=$i++?>">
+					<td><i class="far fa-play-circle"></i></td>
+					<td data-start="<?=$subtitle->start?>"
+						data-end="<?=$subtitle->end?>">
+						<?=$subtitle->text?>
+					</td>
+					</tr>
+				<?php endforeach; ?>
 				</table>
 			</div>
 		</div>
