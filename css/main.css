@@ -1,0 +1,137 @@
+/*.navbar-default {
+    background-color: #000000;
+}*/
+
+#brand-img {
+    height: 2rem;
+    weight: auto;
+}
+.main-navbar {
+    background-color: rgba(0,0,0,0.8);
+}
+
+/*#navbar_container::before{ 
+    content: "";
+    display: block;
+
+}*/
+
+#container-navbar{
+    margin: 1.5rem 1rem;
+}
+
+
+.class-icon > li{
+    margin-left: 1rem;
+    margin-top: 0.3rem;
+}
+
+
+.index-block{
+    margin-top: 6rem;
+}
+#id-new-videos {
+    display: block;
+    color:#c7c5c8;
+    font-style: normal;
+}
+.photo {
+    position: relative;
+    margin: 0 auto;
+    display: table;
+}
+.class-photo-label {
+    position: absolute;
+    bottom: 3px;
+    right: 0px;
+}
+
+.thumbnails {
+    margin-left: -20;
+    list-style: none;
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 980px){
+    ul > .span2 {
+    width: 30% !important
+    }
+}
+
+/* right banner*/
+
+.span3 {
+    width: 290px;
+    padding: 0;
+    margin-left: 0;
+}
+
+.well {
+    background-color: #f5f5f5f5;
+    border: 1px solid #e3e3e3;
+    padding: 19px;
+}
+
+@media (max-width: 1199px) {
+    .everyday_index_banner {
+    width: 100% !important;
+    }
+}
+
+.everyday_index_banner {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+#search-form {
+    margin-left: 1rem;
+}
+
+.search-group {
+    height: 100%;
+
+}
+
+input{
+    height: 2rem !important;
+    float: left;
+}
+
+input[type=submit] {
+    border-radius: 0px 4px 4px 0px;
+    margin-left: -2px;
+    background-color: #5cb451;
+    width: 2.5rem !important;
+    color: #ffffff;
+}
+
+#search-btn {
+    width: 2.5rem;
+    background-color: #00c308;
+    border-radius:0px 4px 4px 0px;
+    margin: -2px;
+    height: 2rem;
+    margin-top: 5px;
+    color: #ffffff;
+}
+
+#search-title {
+    color: #878787  !important;
+    font-size: 1rem;
+    margin-bottom: 0rem;
+}
+
+.navbar-left:after{
+    clear: both;
+}
+
+hr {
+    border: none;
+    height: 3px;
+    background-color: #adadad; /* Modern Browsers */
+}
+
+.thumbnail{
+    min-height:10px !important;
+}
+/*#player {
+    display: none;
+}*/

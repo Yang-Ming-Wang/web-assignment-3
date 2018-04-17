@@ -1,0 +1,33 @@
+body {
+	background-color:#3c3c3c;
+	padding-top: 80px;
+}
+
+td {
+	vertical-align: top;
+	padding: 5px;
+}
+
+tr:hover {
+	cursor: pointer;
+	color: #a19eaf;
+}
+
+h1 {
+	color: white;
+}
+
+#video_caption {
+	height: 20px;
+	text-align: center;
+	background-color: white;
+	margin-bottom: 10px;
+}
+
+#caption_block {
+	height: 350px;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	border-radius: 5px;
+	background-color: white;
+}
