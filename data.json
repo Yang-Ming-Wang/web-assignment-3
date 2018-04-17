@@ -1,8 +1,10 @@
-<?php $data_string = '[
+[
 	{
 		"id": 1,
 		"ytVideoId": "fGPPfZIvtCw",
 		"title": "功夫熊貓三 官方預告片#2",
+		"duration": "02:54",
+		"views":"125",
 		"subtitle": [
 			{
 				"start": 10.28,
@@ -27,7 +29,7 @@
 			{
 				"start": 20.96,
 				"end": 23.4,
-				"text": "PO: So now\'s a... good time?"
+				"text": "PO: So now's a... good time?"
 			},
 			{
 				"start": 23.4,
@@ -42,12 +44,12 @@
 			{
 				"start": 29.6,
 				"end": 30.52,
-				"text": "PO: But I\'m no good at it"
+				"text": "PO: But I'm no good at it"
 			},
 			{
 				"start": 30.7,
 				"end": 33.95,
-				"text": "PO: Oh no! It\'s the dragon teacher! He\'s so handsome!"
+				"text": "PO: Oh no! It's the dragon teacher! He's so handsome!"
 			},
 			{
 				"start": 34.1,
@@ -62,12 +64,12 @@
 			{
 				"start": 38.8,
 				"end": 41.099,
-				"text": "PO: Oh heyy, Dad. What\'s up?"
+				"text": "PO: Oh heyy, Dad. What's up?"
 			},
 			{
 				"start": 41.42,
 				"end": 42.38,
-				"text": "SHIFU: You\'re terrible at it."
+				"text": "SHIFU: You're terrible at it."
 			},
 			{
 				"start": 43.62,
@@ -77,7 +79,7 @@
 			{
 				"start": 45.52,
 				"end": 47.42,
-				"text": "LI: I\'m looking for my son"
+				"text": "LI: I'm looking for my son"
 			},
 			{
 				"start": 48.76,
@@ -92,7 +94,7 @@
 			{
 				"start": 53.96,
 				"end": 56,
-				"text": "MR. PING: How do we know he\'s even related to you?"
+				"text": "MR. PING: How do we know he's even related to you?"
 			},
 			{
 				"start": 56.02,
@@ -107,7 +109,7 @@
 			{
 				"start": 63,
 				"end": 65.68,
-				"text": "There\'s a secret panda village in the mountains."
+				"text": "There's a secret panda village in the mountains."
 			},
 			{
 				"start": 67.08,
@@ -127,12 +129,12 @@
 			{
 				"start": 72.76,
 				"end": 74.36,
-				"text": "You\'re like me but old"
+				"text": "You're like me but old"
 			},
 			{
 				"start": 74.52,
 				"end": 76.22,
-				"text": "GRANDMA PANDA: Ohh... He\'s adorable!"
+				"text": "GRANDMA PANDA: Ohh... He's adorable!"
 			},
 			{
 				"start": 77.6,
@@ -142,7 +144,7 @@
 			{
 				"start": 79.7,
 				"end": 80.76,
-				"text": "I\'m good!"
+				"text": "I'm good!"
 			},
 			{
 				"start": 82.54,
@@ -192,12 +194,12 @@
 			{
 				"start": 96.16,
 				"end": 97.08,
-				"text": "It\'s all gone."
+				"text": "It's all gone."
 			},
 			{
 				"start": 97.44,
 				"end": 99.2,
-				"text": "Now he\'s coming for the pandas."
+				"text": "Now he's coming for the pandas."
 			},
 			{
 				"start": 99.64,
@@ -212,7 +214,7 @@
 			{
 				"start": 104.72,
 				"end": 106.46,
-				"text": "I\'m gonna turn you into kung fu masters"
+				"text": "I'm gonna turn you into kung fu masters"
 			},
 			{
 				"start": 106.74,
@@ -262,7 +264,7 @@
 			{
 				"start": 130.12,
 				"end": 131.12,
-				"text": "KAI: I\'m going to take your..."
+				"text": "KAI: I'm going to take your..."
 			},
 			{
 				"start": 131.12,
@@ -317,12 +319,12 @@
 			{
 				"start": 142.02,
 				"end": 143.26,
-				"text": "MANTIS: You\'re seriously afraid?"
+				"text": "MANTIS: You're seriously afraid?"
 			},
 			{
 				"start": 143.34,
 				"end": 146.06,
-				"text": "Even Master Chicken\'s going in there, and he\'s a chicken."
+				"text": "Even Master Chicken's going in there, and he's a chicken."
 			},
 			{
 				"start": 146.2,
@@ -335,6 +337,8 @@
 		"id" : 2,
 		"ytVideoId" : "10r9ozshGVE",
 		"title": "功夫熊貓三 官方預告片#1",
+		"duration":"02:06",
+		"views":"220",
 		"subtitle": [
 		  {
 			"start": 8.78,
@@ -419,12 +423,12 @@
 		  {
 			"start": 56.04,
 			"end": 57.42,
-			"text": "LI: I\'m Li Shan."
+			"text": "LI: I'm Li Shan."
 		  },
 		  {
 			"start": 57.96,
 			"end": 59.98,
-			"text": "LI: I\'m looking for my son."
+			"text": "LI: I'm looking for my son."
 		  },
 		  {
 			"start": 60.24,
@@ -464,7 +468,7 @@
 		  {
 			"start": 71.8,
 			"end": 73.54,
-			"text": "LI: I\'m very sorry."
+			"text": "LI: I'm very sorry."
 		  },
 		  {
 			"start": 73.88,
@@ -512,6 +516,8 @@
 		"id": 3,
 		"ytVideoId": "yqN7nHM1YTA",
 		"title": "功夫熊貓三 官方預告片#3",
+		"duration":"02:48",
+		"views":"114",
 		"subtitle": [
 		  {
 			"start": 1.68,
@@ -536,7 +542,7 @@
 		  {
 			"start": 15.96,
 			"end": 19.08,
-			"text": "PO: We\'ll have two justice platters please. Tigress did you want extra sauce with that?"
+			"text": "PO: We'll have two justice platters please. Tigress did you want extra sauce with that?"
 		  },
 		  {
 			"start": 19.08,
@@ -566,12 +572,12 @@
 		  {
 			"start": 28.98,
 			"end": 31.54,
-			"text": "SHIFU: You don\'t even know who you are."
+			"text": "SHIFU: You don't even know who you are."
 		  },
 		  {
 			"start": 33.04,
 			"end": 35.08,
-			"text": "LI: I\'m looking for my son."
+			"text": "LI: I'm looking for my son."
 		  },
 		  {
 			"start": 35.7,
@@ -586,12 +592,12 @@
 		  {
 			"start": 39.74,
 			"end": 41.9,
-			"text": "MR. PING: How do we know he\'s even related to you?"
+			"text": "MR. PING: How do we know he's even related to you?"
 		  },
 		  {
 			"start": 41.92,
 			"end": 45.6,
-			"text": "LI: Look at that! It\'s like looking in a fat mirror."
+			"text": "LI: Look at that! It's like looking in a fat mirror."
 		  },
 		  {
 			"start": 46.58,
@@ -606,7 +612,7 @@
 		  {
 			"start": 48.62,
 			"end": 49.94,
-			"text": "MEI MEI: Hi, I\'m Mei Mei."
+			"text": "MEI MEI: Hi, I'm Mei Mei."
 		  },
 		  {
 			"start": 50.98,
@@ -621,7 +627,7 @@
 		  {
 			"start": 60.28,
 			"end": 61.18,
-			"text": "PO: I\'m fine, I\'m fine"
+			"text": "PO: I'm fine, I'm fine"
 		  },
 		  {
 			"start": 62.42,
@@ -671,7 +677,7 @@
 		  {
 			"start": 81.52,
 			"end": 82.66,
-			"text": "PO: There\'s no way I can stop him!"
+			"text": "PO: There's no way I can stop him!"
 		  },
 		  {
 			"start": 82.9,
@@ -681,7 +687,7 @@
 		  {
 			"start": 84.66,
 			"end": 86.48,
-			"text": "PO: You don\'t even know kung fu."
+			"text": "PO: You don't even know kung fu."
 		  },
 		  {
 			"start": 86.5,
@@ -696,7 +702,7 @@
 		  {
 			"start": 94.52,
 			"end": 96.48,
-			"text": "PO: I\'m gonna turn you into kung fu masters."
+			"text": "PO: I'm gonna turn you into kung fu masters."
 		  },
 		  {
 			"start": 97.08,
@@ -741,7 +747,7 @@
 		  {
 			"start": 118.7,
 			"end": 119.74,
-			"text": "KAI: I\'m going to take your-"
+			"text": "KAI: I'm going to take your-"
 		  },
 		  {
 			"start": 119.74,
@@ -771,7 +777,7 @@
 		  {
 			"start": 130.98,
 			"end": 132.82,
-			"text": "PO: This is Master Flying Rhino\'s battle armor!"
+			"text": "PO: This is Master Flying Rhino's battle armor!"
 		  },
 		  {
 			"start": 132.82,
@@ -788,7 +794,9 @@
 	{
 		"id": 4,
 		"ytVideoId": "c-lwDdLKz9k",
-		"title": "【七大罪】劇場版預告 ! 決戰最兇惡魔神 貝瑞利翁 !!",
+		"title": "【七大罪】劇場版預告 ! 決戰最兇惡魔神!!",
+		"duration":"00:52",
+		"views":"185",
 		"subtitle": [
 		  {
 			"start": 3.18,
@@ -861,6 +869,8 @@
 		"id": 5,
 		"ytVideoId": "MvqsnYUBBT0",
 		"title": "염력 念力 2018 電影預告",
+		"duration":"01:20",
+		"views":"309",
 		"subtitle": [
 		  {
 			"start": 5.92,
@@ -952,6 +962,8 @@
 		"id": 6,
 		"ytVideoId": "SrsuOW51vmM",
 		"title": "The Finest Hours 絕命救援 2016 電影預告",
+		"duration":"02:31",
+		"views":"201",
 		"subtitle": [
 		  {
 			"start": 7.42,
@@ -1164,6 +1176,417 @@
 			"text": "*美國海巡隊史，最大膽的救援任務*"
 		  }
 		]
+	},
+	{
+		"id": 7,
+		"ytVideoId": "Q0CbN8sfihY",
+		"title": "Star Wars: The Last Jedi Trailer (Official)",
+		"duration": "02:34",
+		"views": "309",
+		"subtitle": [
+		    {
+		        "start": 3.84,
+		        "end": 5.36,
+		        "text": "When I found you"
+		    },
+		    {
+		        "start": 7.2,
+		        "end": 8.88,
+		        "text": "I saw raw"
+		    },
+		    {
+		        "start": 10.78,
+		        "end": 12.82,
+		        "text": "untamed power"
+		    },
+		    {
+		        "start": 14.46,
+		        "end": 16.36,
+		        "text": "and beyond that"
+		    },
+		    {
+		        "start": 19.74,
+		        "end": 22.8,
+		        "text": "something truly special"
+		    },
+		    {
+		        "start": 32.94,
+		        "end": 34.1,
+		        "text": "something"
+		    },
+		    {
+		        "start": 36.04,
+		        "end": 37.94,
+		        "text": "inside me has always been there"
+		    },
+		    {
+		        "start": 41.04,
+		        "end": 42.34,
+		        "text": "then I was awake"
+		    },
+		    {
+		        "start": 43.96,
+		        "end": 45.3,
+		        "text": "and I need help"
+		    },
+		    {
+		        "start": 52.46,
+		        "end": 54.96,
+		        "text": "I&#39;ve seen this raw strength only once before"
+		    },
+		    {
+		        "start": 56.18,
+		        "end": 57.9,
+		        "text": "It didn&#39;t scare me enough then"
+		    },
+		    {
+		        "start": 60.16,
+		        "end": 61.78,
+		        "text": "It does now"
+		    },
+		    {
+		        "start": 67.36,
+		        "end": 68.24,
+		        "text": "Let the past die"
+		    },
+		    {
+		        "start": 70.72,
+		        "end": 71.72,
+		        "text": "Kill it"
+		    },
+		    {
+		        "start": 74.56,
+		        "end": 75.44,
+		        "text": "If you have to"
+		    },
+		    {
+		        "start": 78.06,
+		        "end": 79.94,
+		        "text": "That&#39;s the only way to become what you are meant to be"
+		    },
+		    {
+		        "start": 94.92,
+		        "end": 96.14,
+		        "text": "We are the spark"
+		    },
+		    {
+		        "start": 96.76,
+		        "end": 98.48,
+		        "text": "that will light the fire"
+		    },
+		    {
+		        "start": 98.64,
+		        "end": 100.18,
+		        "text": "that will burn the First Order down"
+		    },
+		    {
+		        "start": 101.4,
+		        "end": 102.22,
+		        "text": "Come on!"
+		    },
+		    {
+		        "start": 105.42,
+		        "end": 107.54,
+		        "text": "This is not going to go"
+		    },
+		    {
+		        "start": 109.32,
+		        "end": 110.46,
+		        "text": "the way you think"
+		    },
+		    {
+		        "start": 112.58,
+		        "end": 113.3,
+		        "text": "Fulfill"
+		    },
+		    {
+		        "start": 115.92,
+		        "end": 116.6,
+		        "text": "your"
+		    },
+		    {
+		        "start": 118.62,
+		        "end": 119.62,
+		        "text": "destiny."
+		    },
+		    {
+		        "start": 123.78,
+		        "end": 125.34,
+		        "text": "I need someone"
+		    },
+		    {
+		        "start": 127.56,
+		        "end": 129.96,
+		        "text": "to show me my place in all this"
+		    }
+		]
+	},
+	{
+		"id": 8,
+		"ytVideoId": "dV6B7aY30pk",
+		"title": "Beauty and the Beast Trailer (HD)",
+		"duration":"02:00",
+		"views":"199",
+		"subtitle": [
+		    {
+		        "start": 0.0,
+		        "end": 12.596,
+		        "text": "Subtitledtrailers.com"
+		    },
+		    {
+		        "start": 32.156,
+		        "end": 33.302,
+		        "text": "Papa?"
+		    },
+		    {
+		        "start": 40.944,
+		        "end": 42.094,
+		        "text": "Come into the light."
+		    },
+		    {
+		        "start": 49.34,
+		        "end": 50.342,
+		        "text": "Show me the girl."
+		    },
+		    {
+		        "start": 54.856,
+		        "end": 56.98,
+		        "text": "The one who&#39;d break the spell!"
+		    },
+		    {
+		        "start": 60.852,
+		        "end": 62.437,
+		        "text": "Belle, of course he can talk!"
+		    },
+		    {
+		        "start": 63.012,
+		        "end": 64.356,
+		        "text": "Hello, please to meet you!"
+		    },
+		    {
+		        "start": 79.103,
+		        "end": 80.705,
+		        "text": "I say we kill the beast!"
+		    },
+		    {
+		        "start": 95.072,
+		        "end": 95.667,
+		        "text": "No!"
+		    },
+		    {
+		        "start": 97.032,
+		        "end": 98.098,
+		        "text": "Don&#39;t be afraid."
+		    },
+		    {
+		        "start": 99.807,
+		        "end": 101.101,
+		        "text": "I&#39;m not afraid."
+		    }
+		]
+	},
+	{
+		"id": 9,
+		"ytVideoId": "6gt9kR9IyL4",
+		"title": "Avengers: Infinity War (2018) Official Trailer 3-1",
+		"duration":"05:023",
+		"views":"200",
+		"subtitle": [
+		    {
+		        "start": 5.88,
+		        "end": 10.218,
+		        "text": "The entire time I knew him, he only ever had one goal"
+		    },
+		    {
+		        "start": 13.93,
+		        "end": 15.932,
+		        "text": "To wipe out half the universe"
+		    },
+		    {
+		        "start": 17.183,
+		        "end": 21.479,
+		        "text": "If he gets all the Infinity stones he can do it with the snap of his fingers"
+		    },
+		    {
+		        "start": 22.856,
+		        "end": 24.19,
+		        "text": "Just like that"
+		    },
+		    {
+		        "start": 25.66,
+		        "end": 26.25,
+		        "text": "- Tell me his name again"
+		    },
+		    {
+		        "start": 27.68,
+		        "end": 33.68,
+		        "text": "- Thanos"
+		    },
+		    {
+		        "start": 36.411,
+		        "end": 40.81,
+		        "text": "We got one advantage: he&#39;s coming to us"
+		    },
+		    {
+		        "start": 42.709,
+		        "end": 45.962,
+		        "text": "We have what Thanos wants, so that&#39;s what we use"
+		    },
+		    {
+		        "start": 54.12,
+		        "end": 58.57,
+		        "text": "Let&#39;s talk about this plan of yours, I think it&#39;s good except it sucks"
+		    },
+		    {
+		        "start": 58.57,
+		        "end": 61.394,
+		        "text": "So let me do the plan and that way it might be really good"
+		    },
+		    {
+		        "start": 62.228,
+		        "end": 63.62,
+		        "text": "Wow"
+		    },
+		    {
+		        "start": 70.945,
+		        "end": 72.947,
+		        "text": "The end is near"
+		    },
+		    {
+		        "start": 77.994,
+		        "end": 83.917,
+		        "text": "When I&#39;m done, half of humanity will still exist"
+		    },
+		    {
+		        "start": 92.342,
+		        "end": 97.263,
+		        "text": "Perfectly balanced as all things should be"
+		    },
+		    {
+		        "start": 101.809,
+		        "end": 103.811,
+		        "text": "I hope they remember you"
+		    },
+		    {
+		        "start": 122.247,
+		        "end": 124.582,
+		        "text": "I&#39;m Peter by the way"
+		    },
+		    {
+		        "start": 124.582,
+		        "end": 125.416,
+		        "text": "- Dr. Strange."
+		    },
+		    {
+		        "start": 125.416,
+		        "end": 128.586,
+		        "text": "Oh we&#39;re using our made-up names, then I am Spider-Man"
+		    },
+		    {
+		        "start": 141.557,
+		        "end": 142.225,
+		        "text": "So, this is it."
+		    },
+		    {
+		        "start": 143.434,
+		        "end": 144.602,
+		        "text": "It&#39;s all been leading to this."
+		    },
+		    {
+		        "start": 151.693,
+		        "end": 152.235,
+		        "text": "Ready?"
+		    },
+		    {
+		        "start": 153.69,
+		        "end": 159.69,
+		        "text": "Let&#39;s go."
+		    },
+		    {
+		        "start": 173.89,
+		        "end": 174.465,
+		        "text": "There was an idea..."
+		    },
+		    {
+		        "start": 177.635,
+		        "end": 180.513,
+		        "text": "...to bring together a group of remarkable people..."
+		    },
+		    {
+		        "start": 183.57,
+		        "end": 186.19,
+		        "text": "...to see if we could become something more."
+		    },
+		    {
+		        "start": 189.147,
+		        "end": 193.109,
+		        "text": "So when they needed us, we could fight the battles..."
+		    },
+		    {
+		        "start": 196.487,
+		        "end": 197.488,
+		        "text": "...that they never could."
+		    },
+		    {
+		        "start": 215.757,
+		        "end": 218.968,
+		        "text": "In time you&#39;ll know what it&#39;s like to lose."
+		    },
+		    {
+		        "start": 220.553,
+		        "end": 225.308,
+		        "text": "To feel so desperately that you&#39;re right, yet to fail all the same."
+		    },
+		    {
+		        "start": 230.938,
+		        "end": 231.439,
+		        "text": "Dread it."
+		    },
+		    {
+		        "start": 233.983,
+		        "end": 234.692,
+		        "text": "Run from it."
+		    },
+		    {
+		        "start": 236.152,
+		        "end": 237.445,
+		        "text": "Destiny still arrives.(CC4K)"
+		    },
+		    {
+		        "start": 246.454,
+		        "end": 247.747,
+		        "text": "Evacuate the city."
+		    },
+		    {
+		        "start": 249.373,
+		        "end": 250.875,
+		        "text": "Engage all defenses."
+		    },
+		    {
+		        "start": 252.418,
+		        "end": 254.128,
+		        "text": "And get this man a shield."
+		    },
+		    {
+		        "start": 267.225,
+		        "end": 270.19,
+		        "text": "Fun isn&#39;t something one considers when balancing the universe."
+		    },
+		    {
+		        "start": 274.148,
+		        "end": 274.941,
+		        "text": "But this..."
+		    },
+		    {
+		        "start": 276.317,
+		        "end": 278.194,
+		        "text": "Does put a smile on my face."
+		    },
+		    {
+		        "start": 305.471,
+		        "end": 306.514,
+		        "text": "Who the hell are you guys?"
+		    }
+		]
 	}
-]';
-?>
+]

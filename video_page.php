@@ -1,8 +1,7 @@
 <?php
-include 'data.php';
-
 function getVideo() {
-	$videos = json_decode($GLOBALS["data_string"]);
+	$fileString = file_get_contents("data.json");
+	$videos = json_decode($fileString);
 	$id = filter_input(INPUT_GET, "id", FILTER_VALIDATE_INT);
 	if ($id === null || $id === false) {
 		$id = 0;
