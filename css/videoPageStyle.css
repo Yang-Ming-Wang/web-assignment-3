@@ -10,7 +10,7 @@ td {
 
 tr:hover {
 	cursor: pointer;
-	color: #a19eaf;
+	color: #a19eaf !important;
 }
 
 h1 {

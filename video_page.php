@@ -64,6 +64,6 @@ $video = getVideo();
 		</div>
 	</div>
 	<span id="ytVideoId" data-ytvideoid="<?=$video->ytVideoId?>"></span>
-	<script src="javascript/control_subtitle.js"></script>
+	<script src="javascript/control_subtitle_php.js"></script>
 </body>
 </html>
