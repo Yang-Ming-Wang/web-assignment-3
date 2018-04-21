@@ -158,7 +158,7 @@ for( i = (page-1)*maxVideoNumberPerPage ; i< Math.min(page * maxVideoNumberPerPa
 
     var a = document.createElement("a");
     // a.href= "video_page.html?id=" + String(global_videos[i]["id"]);
-    a.href= "video_page.php?id=" + String(i);
+    a.href= "video_page.html?id=" + String(i);
 
     var img=document.createElement("img");
     img.src = "https://i.ytimg.com/vi/" + String(global_videos[i]["ytVideoId"]) + "/hqdefault.jpg";

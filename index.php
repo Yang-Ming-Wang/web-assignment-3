@@ -1,3 +1,19 @@
+<?php
+$fileString = file_get_contents("data.json");
+$videos = json_decode($fileString);
+$page = filter_input(INPUT_GET, "page", FILTER_VALIDATE_INT);
+if ($page === null || $page === false) {
+    $page = 0;
+}
+if ($page < 0 || $page >= sizeof($videos)/4) {
+    $page = 0;
+}
+function setbtnColor($btnId) {
+    if ($GLOBALS["page"] == $btnId) {
+        echo "style=\"background-color:#eee\"";
+    }
+}
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -94,9 +110,27 @@
                     <h1 id="id-new-videos">
                         NEW VIDEOS
                     </h1>
+
                     <ul class="thumbnails", id="video_thumbnails" >
-                      
-                        
+                       <?php $startId = $page*4;
+                             $endId = min($startId + 4, sizeof($videos));
+                            for ($id = $startId; $id < $endId; $id++): ?>
+                        <li class="span2">
+                            <div class="thumbnail" id="<?=$id + 1?>">
+                            <div class="photo">
+                                <a href="video_page.php?id=<?=$id?>"><img src="https://i.ytimg.com/vi/<?=$videos[$id]->ytVideoId?>/hqdefault.jpg"></a><span class="label label-inverse class-photo-label"><span class="video-time"><?=$videos[$id]->duration?></span></span>
+                            </div>
+                            <div class="caption">
+                                <a href="video_page.html?id=<?=$id?>">
+                                <h5><?=$videos[$id]->title?></h5></a>
+                                <div><i class="icon-headphones"><?=$videos[$id]->views?></i></div>
+                            <div>
+                                <span class="label">中文</span><span class="label label-warning">美國腔</span>
+                            </div>
+                            </div>
+                        </div>
+                        </li>
+                        <?php endfor; ?>
                     </ul>
 
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -104,16 +138,16 @@
                             <nav aria-label="Page navigation">
                                  <ul class="pagination">
                                     <li class="page-item">
-                                        <a class="page-link" href="javascript: void(0)" aria-label="Previous" onclick="onClickPaginationPrevious();blur()">
+                                        <a class="page-link" href="index.php?page=<?=max(0, $page - 1)?>">
                                             <span aria-hidden="true">&laquo;</span>
                                             <span class="sr-only">Previous</span>
                                         </a>
                                     </li>
-                                    <li class="page-item"><a id="page1" class="page-link" href="javascript: void(0)" onclick="onClickPaginationA();blur()">1</a></li>
-                                    <li class="page-item"><a id="page2" class="page-link" href="javascript: void(0)" onclick="onClickPaginationB();blur()">2</a></li>
-                                    <li class="page-item"><a id="page3" class="page-link" href="javascript: void(0)" onclick="onClickPaginationC();blur()">3</a></li>
+                                    <li class="page-item"><a id="page1" class="page-link" <?php setbtnColor(0);?> href="index.php?page=0">1</a></li>
+                                    <li class="page-item"><a id="page2" class="page-link" <?php setbtnColor(1);?> href="index.php?page=1">2</a></li>
+                                    <li class="page-item"><a id="page3" class="page-link" <?php setbtnColor(2);?> href="index.php?page=2">3</a></li>
                                     <li class="page-item">
-                                        <a class="page-link" href="javascript: void(0)" aria-label="Next" onclick="onClickPaginationNext();blur()">
+                                        <a class="page-link"  href="index.php?page=<?=min($page + 1, 2)?>">
                                             <span aria-hidden="true">&raquo;</span>
                                             <span class="sr-only">Next</span>
                                         </a>
@@ -161,8 +195,6 @@
     <!-- bootstap 3  -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="./ajax/ajax2.js"></script>
-    <script type="text/javascript" src="./javascript/index.js" charset="utf-8"></script>
 
 </body>
 </html>
