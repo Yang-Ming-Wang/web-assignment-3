@@ -14,6 +14,7 @@ var flag = 1;
          function(){maxPage = Math.ceil(global_videos.length/maxVideoNumberPerPage);
 });
 
+//set the back ground color
 function a_bgcolor()
 {
 
@@ -21,6 +22,7 @@ function a_bgcolor()
     document.getElementById("page"+flag).style.backgroundColor ="#eee" ;
 }
 
+//handler for clicking the fist the page button 
 function onClickPaginationA()
 {
     var myNode = document.getElementById("video_thumbnails");
@@ -38,6 +40,8 @@ function onClickPaginationA()
 
 
 }
+
+//handler for clicking the sencond the page button
 function onClickPaginationB()
 {
     var myNode = document.getElementById("video_thumbnails");
@@ -55,6 +59,8 @@ function onClickPaginationB()
 
 
 }
+
+//handler for clicking the third the page button
 function onClickPaginationC()
 {
     var myNode = document.getElementById("video_thumbnails");
@@ -73,7 +79,7 @@ function onClickPaginationC()
 
 }
 
-
+//handler for clicking the previuos video button
 function onClickPaginationPrevious()
 {
     var myNode = document.getElementById("video_thumbnails");
@@ -103,6 +109,7 @@ function onClickPaginationPrevious()
 
 }
 
+//handler for clicking next page button
 function onClickPaginationNext()
 {
     var myNode = document.getElementById("video_thumbnails");
@@ -133,7 +140,7 @@ function onClickPaginationNext()
 
 }
 
-
+//generate the thumbnail element of video block
 function generateVideoBlock( page ){
 
 for( i = (page-1)*maxVideoNumberPerPage ; i< Math.min(page * maxVideoNumberPerPage,global_videos.length); i++) {

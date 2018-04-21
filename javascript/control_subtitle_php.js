@@ -89,6 +89,9 @@ function onPlayerStateChange(event) {
 	}
 }
 
+
+//monitor video in certain time interval regularly
+//check whether has a subtitle exist
 function onTimeChange() {
 	var i,
 		subtitleLength = subtitle.length,

@@ -1,4 +1,6 @@
-
+//url 
+//the url is the location to parse the data
+//cFunction{1,2,3} is the callBackFunction
 function loadDoc2(url, cFunction1,cFunction2,cFunction3) {
   var xhttp;
   xhttp=new XMLHttpRequest();
