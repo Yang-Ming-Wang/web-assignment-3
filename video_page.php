@@ -18,6 +18,7 @@ $video = getVideo();
 <html>
 <head>
 	<meta charset="utf-8" />
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/videoPageStyle.css">
 </head>
@@ -55,7 +56,7 @@ $video = getVideo();
 					<tr id="<?=$i++?>"
 						data-start="<?=$subtitle->start?>"
 						data-end="<?=$subtitle->end?>">
-						<td></td>
+						<td><i class="far fa-play-circle"></i></td>
 						<td><?=$subtitle->text?></td></tr>
 				<?php endforeach; ?>
 				</table>
