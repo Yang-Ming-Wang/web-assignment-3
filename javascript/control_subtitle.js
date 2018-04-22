@@ -18,6 +18,15 @@ function videoParse() {
 		console.log(urlId);
 	}
 	currentVideo = global_videos[urlId];
+
+	//load Youtube IFrame Player API code asynchronously.
+	(function (){
+		var tag = document.createElement("script"),
+			firstScriptTag = document.getElementsByTagName("script")[0];
+
+			tag.src = "https://www.youtube.com/iframe_api";
+			firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+	})();
 }
 
 function jumpToSubTime(subtitle) {
@@ -59,14 +68,6 @@ function insertData() {
 	previousCaption = document.getElementById("0");
 }
 
-//load Youtube IFrame Player API code asynchronously.
-(function (){
-	var tag = document.createElement("script"),
-		firstScriptTag = document.getElementsByTagName("script")[0];
-
-		tag.src = "https://www.youtube.com/iframe_api";
-		firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
-})();
 
 // This function creates an <iframe> (and YouTube player)
 // after the API code downloads.
